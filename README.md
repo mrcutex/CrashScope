@@ -1,35 +1,33 @@
 # CrashScope
 
-CrashScope is a simple Android tool to view crash and ANR reports directly from your device. It reads reports from the system DropBox and presents them in a clean and readable way.
+![Platform](https://img.shields.io/badge/platform-Android-green)
+![Built with](https://img.shields.io/badge/Jetpack%20Compose-Yes-orange)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+CrashScope is a lightweight Android tool to view crash and ANR reports directly on your device using the system DropBox.
 
 ## Features
-- View crash and ANR reports
-- Read reports from Android DropBox system
-- Search by app name or package
-- Detailed crash view with stack trace
-- Copy and share logs
-- Auto-hide old logs
-- Option to include system apps
+- View crash and ANR reports  
+- Read logs from Android DropBox  
+- Search by app or package  
+- Detailed stack trace viewer  
+- Copy and share logs  
+- Auto-hide old logs  
+- Optional system app logs  
 
 ## Screenshots
 
-### Home
-![Home](screenshots/home.jpg)
-
-### Details
-![Details](screenshots/detail.jpg)
-
-### Settings
-![Settings](screenshots/settings.jpg)
+<p align="center">
+  <img src="screenshots/home.jpg" width="30%" />
+  <img src="screenshots/detail.jpg" width="30%" />
+  <img src="screenshots/settings.jpg" width="30%" />
+</p>
 
 ## Installation
-Clone the repo and build using Android Studio or AndroidIDE. Download Apk file
+Clone the repository and build with Android Studio or AndroidIDE, or install the APK.
 
 ## Permissions
-CrashScope requires access to system logs and usage data to read crash reports.
+Requires access to system logs and usage data to read crash reports.
 
-## Open Source
-Licensed under the MIT License.
-
-## Author
-Cutex 
+## License
+MIT License
