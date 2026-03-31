@@ -11,14 +11,19 @@ CrashScope is a simple Android tool to view crash and ANR reports directly from 
 - Auto-hide old logs
 - Option to include system apps
 
-## Why CrashScope
-Debugging on-device crashes can be messy. CrashScope makes it easier to quickly inspect what went wrong without connecting to a PC or using logcat manually.
-
 ## Screenshots
-(Add 2–3 screenshots here)
+
+### Home
+![Home](screenshots/home.jpg)
+
+### Details
+![Details](screenshots/detail.jpg)
+
+### Settings
+![Settings](screenshots/settings.jpg)
 
 ## Installation
-Clone the repo and build using Android Studio or AndroidIDE.
+Clone the repo and build using Android Studio or AndroidIDE. Download Apk file
 
 ## Permissions
 CrashScope requires access to system logs and usage data to read crash reports.
